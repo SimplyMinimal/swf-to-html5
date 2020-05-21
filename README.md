@@ -6,6 +6,7 @@ Automatically build a website that plays Adobe Flash SWF files using Ruffle
 cd ~
 git clone https://github.com/SimplyMinimal/swf-to-html5`
 git clone https://github.com/SimplyMinimal/ruffle
+cd swf-to-html5
 ./update_ruffle.sh
 ./generate_htmlfiles.sh
 ```
