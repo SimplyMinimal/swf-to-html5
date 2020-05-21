@@ -1,0 +1,2 @@
+Drop any .swf files in this folder and then
+run ./generate_htmlfiles.sh in the parent folder (one above this folder) to build the site.
