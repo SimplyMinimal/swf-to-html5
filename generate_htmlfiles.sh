@@ -99,7 +99,7 @@ cat <<EOF > ${f}.html
 <html>
     <body>
         <embed src="../${f}" width="100%" height="100%"> </embed>
-        <script src="../ruffle_web_latest//ruffle.js"></script>
+        <script src="../ruffle_web_latest/ruffle.js"></script>
     </body>
 </html>
 EOF
