@@ -4,14 +4,14 @@ CLEAN_UP=1 #Set to 0 to disable
 # Create assets folder if it doesn't exist
 if [ ! -d "./assets" ]; then
     mkdir -p "./assets"
-    chmod 600 "./assets"
+    chmod 700 "./assets"
     echo "assets folder created. Go ahead and dump .swf files in this folder and re-run this script"
     exit 0
 fi
 
 if [ ${CLEAN_UP} -eq 1 ]; then
     echo "Cleaning up old files..."
-    rm ./assets/*.html
+    rm ./assets/*.html 2> /dev/null
 fi
 
 
